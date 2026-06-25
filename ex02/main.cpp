@@ -6,7 +6,7 @@
 /*   By: opopov <opopov@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/25 10:29:25 by opopov            #+#    #+#             */
-/*   Updated: 2026/06/25 12:19:46 by opopov           ###   ########.fr       */
+/*   Updated: 2026/06/25 12:27:37 by opopov           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 
 int main()
 {
+	// Test from exercise
 	MutantStack<int> mstack;
 	mstack.push(5);
 	mstack.push(17);
@@ -37,7 +38,7 @@ int main()
 	std::stack<int> s(mstack);
 
 	// My tests
-	
+
 
 	return 0;
 }

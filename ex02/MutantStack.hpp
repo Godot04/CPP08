@@ -6,7 +6,7 @@
 /*   By: opopov <opopov@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/25 10:29:39 by opopov            #+#    #+#             */
-/*   Updated: 2026/06/25 12:21:33 by opopov           ###   ########.fr       */
+/*   Updated: 2026/06/25 12:28:00 by opopov           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,10 @@
 
 # include <stack>
 # include <iostream>
+
+# define GRN "\033[32m"
+# define PRPL "\033[35m"
+# define RST "\033[0m"
 
 template <typename T>
 class MutantStack : public std::stack<T>
